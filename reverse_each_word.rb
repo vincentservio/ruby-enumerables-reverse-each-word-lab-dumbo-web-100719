@@ -1,5 +1,5 @@
 def reverse_each_word(sentence1)
- out ""
+ out = ""
  i = sentence1.length - 1 
  while i >= 0 
  out += sentence1 [i]
