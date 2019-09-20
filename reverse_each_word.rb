@@ -1,3 +1,3 @@
 def reverse_each_word(sentence1)
-    sentence1.split.reverse {|h| h}
+    sentence1.reverse {|h| h}
 end
