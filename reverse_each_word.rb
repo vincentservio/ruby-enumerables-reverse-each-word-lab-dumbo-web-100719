@@ -1,4 +1,4 @@
 def reverse_each_word(sentence1)
-    sentence1.revers {|h| h}
+    sentence1.reverse.each {|h| h}
  
 end
