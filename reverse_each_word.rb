@@ -1,9 +1,6 @@
 def reverse_each_word(sentence1)
- out = ""
- i = sentence1.length - 1 
- while i >= 0 
- out += sentence1 [i]
- i -= 1
+  count = 0
+while sentence1.length  >=0
+    sentence1.reverse {|h| h}
+ 
 end
-return out 
-end 
